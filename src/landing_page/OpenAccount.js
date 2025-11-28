@@ -2,7 +2,18 @@ import React from 'react';
 
 function OpenAccount() {
     return ( 
-        <h1>Open Account</h1>
+        <div className='container p-5 mb-5'>
+            <div className='row text-center justify-content-center align-items-center '>
+                    
+                    <h1 className='mt-5'>
+                       Open an Account 
+                    </h1>
+                    <p>Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O brokerage.</p>
+                    <button className="btn btn-primary" style={{width:"30%"}}>Sign up now</button>
+
+            </div>
+
+        </div>
      );
 }
 
